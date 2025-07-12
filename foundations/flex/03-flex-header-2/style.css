@@ -18,12 +18,7 @@ body {
   padding: 8px;
 }
 
-.left-items {
-  display: flex;
-  gap: 16px;
-}
-
-.right-items {
+.left-items, .right-items {
   display: flex;
   gap: 16px;
   align-items: center;
@@ -62,5 +57,5 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 8px;
-  padding-left: 8px;
+  padding: 0;
 }
