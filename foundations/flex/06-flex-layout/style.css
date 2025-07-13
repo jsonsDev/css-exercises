@@ -27,8 +27,26 @@ input {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+  padding: 0;
 }
 
-.left-links a, .right-links a {
+a {
   text-decoration: none;
+  color: #999999;
+  font-size: 14px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 32px;
+}
+
+.footer {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 32px;
 }
